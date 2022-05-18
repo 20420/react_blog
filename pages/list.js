@@ -20,7 +20,7 @@ function MyList(list) {
 
   // 每次页面刷新 都重新将Mylist的值赋值
   // 这样就可以只刷新变化的位置 不变的位置不会重新刷新
-  // 注意要把第二个参数去掉  面试时可以说这个
+  // 注意要把第二个参数去掉 
   //  切换菜单的时候得到数据了 但是mylist却没有改变 所以要用下面的语句让它变化 
   useEffect(()=>{
      setMylist(list.data)
@@ -52,7 +52,7 @@ function MyList(list) {
     
       <Header></Header>
 
-      {/* 可能其他页面的两栏布局和现在这个不一样，所以我们不能单独做一个组件了 */}
+   
       <Row className = "comm-main" type="flex" justify='center'>
          {/* 左栏 */}
          <Col className='comm-left' xs={24} sm={24} md={16} lg={18} xl={14} >
