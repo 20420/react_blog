@@ -90,8 +90,6 @@ function Home(list) {
 }
 
 // 向下述地址发出请求获得数据
-// 因为是从远端获取 需要一定事件  所以是异步操作
-// 为什么没有产生跨域？ 弹幕说：跨域是后端的限制 后端允许跨域 浏览器就默认你能发出跨域请求
 Home.getInitialProps = async () =>{
  
   return await new Promise((resolve)=>{
