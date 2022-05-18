@@ -17,7 +17,6 @@ import Footer from '../components/Footer'
 // marked的版本要1.1.1  否则会报错
 import marked from 'marked'
 import hljs from 'highlight.js'
-// 用于生成markdown目录  做这个视频的时候,还没有开源 所以不能用npm安装  只能自己引入
 import Tocify from "../components/tocify.tsx"
 
 import axios from 'axios'
